@@ -7,7 +7,7 @@ if parameter == 2:
     target_string = sys.argv[2]
     matches = re.findall(re.escape(keyword), target_string)
     if matches:
-        print(len(matches)+1)
+        print(len(matches))
     else:
         print("none")
 else:
